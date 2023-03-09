@@ -1,0 +1,72 @@
+
+/* google font added*/  
+  @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Bungee+Inline&family=Bungee+Shade&family=Libre+Bodoni:wght@500&family=Lobster&family=Oleo+Script+Swash+Caps&family=Oswald:wght@700&family=Pirata+One&family=Poppins:wght@700&family=Rampart+One&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@500&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Bungee+Inline&family=Bungee+Shade&family=Libre+Bodoni:wght@500&family=Lobster&family=Oleo+Script+Swash+Caps&family=Oswald:wght@700&family=Permanent+Marker&family=Pirata+One&family=Poppins:wght@700&family=Rampart+One&family=Roboto+Condensed:wght@400;700&family=Roboto:wght@500&display=swap');
+
+body{
+    background-image: url(./tic\ tac.jpg);
+}
+/* CSS Code */
+    /* Heading */
+    h1 {
+        color: red;
+        font-family: Rampart One;
+        font-size: 95px;
+        text-shadow: 10px 10px 5px black;
+    }
+ 
+    /* 3*3 Grid */
+    #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9 {
+        width: 150px;
+        height: 142px;
+        margin: auto;
+        border: 1px solid darkcyan;
+        border-radius: 9px;
+        margin: 15px;
+        box-shadow: 10px 10px black;
+        font-size: 100px;
+        text-align: center;
+        color: darkcyan;
+    }
+ 
+    /* Reset Button */
+    #but {
+        box-sizing: border-box;
+        width: 155px;
+        height: 80px;
+        border: 10px solid black;
+        margin: auto;
+        border-radius: 20px;
+        font-family:Lobster;
+ 
+        background-color: darkcyan;
+        color: black;
+        box-shadow: 10px 10px black;
+        font-size: 28px;
+        cursor: pointer;
+    }
+ 
+    /* Player turn space */
+    #print {
+        font-family:Permanent Marker;
+ 
+        color: darkturquoise;
+        font-size: 30px;
+    }
+ 
+    /* Main Container */
+    #main {
+        text-align: center;
+    }
+ 
+    /* Game Instruction Text */
+    #ins {
+        font-family:Permanent Marker
+        ;
+             
+        color: darkturquoise;
+        font-size: 27px;
+    }
+    
